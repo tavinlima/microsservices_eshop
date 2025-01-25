@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GeekShoppping.Web/1.0.0": {
+        "runtime": {
+          "GeekShoppping.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeekShoppping.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
