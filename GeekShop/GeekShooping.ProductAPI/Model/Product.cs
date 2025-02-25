@@ -25,10 +25,10 @@ namespace GeekShooping.ProductAPI.Model
         //Normalizar depois
         [Column("category_name")]
         [StringLength(50)]
-        public string categoryName { get; set; }
+        public string CategoryName { get; set; }
 
         [Column("image_url")]
         [StringLength (300)]
-        public string imageURL { get; set; }
+        public string ImageURL { get; set; }
     }
 }
