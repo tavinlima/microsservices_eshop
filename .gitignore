@@ -1,1 +1,51 @@
+## Diretórios e Arquivos gerados pelo .NET
+GeekShop/GeekShooping.ProductAPI/obj
+GeekShop/GeekShooping.ProductAPI/bin
+
+out/
+
+##Ignorando variaveis de ambiente
+GeekShop\GeekShooping.ProductAPI/.env
+
+## Arquivos de configuração do usuário
 .vs/
+.vscode/
+
+## Arquivos de dependências do NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db
+*.bak
+
+## Arquivos de build gerados (após a execução do `dotnet publish`)
+publish/
+
+## Arquivos temporários
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.swp
+
+## Arquivos específicos do Visual Studio
+.vs2019/
+.vs2017/
+.vs2022/
+
+## Configurações de dependência do JetBrains Rider
+.idea/
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Ignorar a pasta .git
+.git/
