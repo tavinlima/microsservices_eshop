@@ -5,7 +5,7 @@ GeekShop/GeekShooping.ProductAPI/bin
 out/
 
 ##Ignorando variaveis de ambiente
-GeekShop\GeekShooping.ProductAPI/.env
+GeekShop/GeekShooping.ProductAPI/.env
 
 ## Arquivos de configuração do usuário
 .vs/

@@ -6,5 +6,7 @@ namespace GeekShooping.ProductAPI.Model.Context
     {
         public GSContext() { }
         public GSContext(DbContextOptions<GSContext> options) : base(options){ }
+        
+        public DbSet<Product> Products { get; set; }
     }
 }

@@ -96,3 +96,4 @@ C:\Users\Home\Downloads\microservice-eshop\GeekShop\GeekShoppping.Web\obj\Debug\
 C:\Users\Home\Downloads\microservice-eshop\GeekShop\GeekShoppping.Web\obj\Debug\net9.0\GeekShoppping.Web.pdb
 C:\Users\Home\Downloads\microservice-eshop\GeekShop\GeekShoppping.Web\obj\Debug\net9.0\GeekShoppping.Web.genruntimeconfig.cache
 C:\Users\Home\Downloads\microservice-eshop\GeekShop\GeekShoppping.Web\obj\Debug\net9.0\ref\GeekShoppping.Web.dll
+C:\Users\Home\Downloads\microservice-eshop\GeekShop\GeekShoppping.Web\obj\Debug\net9.0\GeekShoppping.Web.sourcelink.json
