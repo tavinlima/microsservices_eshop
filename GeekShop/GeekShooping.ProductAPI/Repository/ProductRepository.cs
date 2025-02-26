@@ -39,7 +39,7 @@ namespace GeekShooping.ProductAPI.Repository
         {
             Product product = await _ctx.Products
                                     .Where(p => p.Id == id)
-                                    .FirstOrDefaultAsync();
+                                    .FirstOrDefaultAsync() ?? new Product;
 
             return _mapper.Map<ProductDTO>(product);
         }
@@ -60,9 +60,9 @@ namespace GeekShooping.ProductAPI.Repository
             {
                 Product product = await _ctx.Products
                                     .Where(p => p.Id == id)
-                                    .FirstOrDefaultAsync();
+                                    .FirstOrDefaultAsync() ?? new Product;
 
-                if (product == null) return false;
+                if (product.Id <= 0) return false;
 
                 _ctx.Products.Remove(product);
                 await _ctx.SaveChangesAsync();

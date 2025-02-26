@@ -23,7 +23,7 @@ namespace GeekShooping.ProductAPI.Controllers
             {
                 var product = await _repo.GetById(id);
 
-                if (product == null) return NotFound();
+                if (product.Id <= 0) return NotFound();
 
                 return Ok(product);
             }
